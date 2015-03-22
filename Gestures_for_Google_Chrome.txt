@@ -1,0 +1,135 @@
+{
+  "name": "Chrome Gestures",
+  "version": "1.13.4",
+  "normal_actions": {
+    "L": {
+      "name": "back",
+      "args": []
+    },
+    "R": {
+      "name": "forward",
+      "args": []
+    },
+    "UD": {
+      "name": "cacheless reload",
+      "args": []
+    },
+    "UL": {
+      "name": "select first tab",
+      "args": []
+    },
+    "D": {
+      "name": "open new tab",
+      "args": []
+    },
+    "DR": {
+      "name": "close this tab",
+      "args": []
+    },
+    "RU": {
+      "name": "scroll to top",
+      "args": []
+    },
+    "LU": {
+      "name": "toggle pin tab",
+      "args": []
+    },
+    "#FlipBack": {
+      "name": "back",
+      "args": []
+    },
+    "#FlipForward": {
+      "name": "forward",
+      "args": []
+    },
+    "DL": {
+      "name": "re-open closed tab",
+      "args": []
+    },
+    "U": {
+      "name": "scroll to top",
+      "args": []
+    },
+    "UR": {
+      "name": "select last tab",
+      "args": []
+    },
+    "DU": {
+      "name": "clone tab",
+      "args": []
+    },
+    "RD": {
+      "name": "scroll to bottom",
+      "args": []
+    },
+    "DRU": {
+      "name": "open new window",
+      "args": []
+    },
+    "UDUD": {
+      "name": "reload all tabs",
+      "args": []
+    },
+    "RL": {
+      "name": "stop",
+      "args": []
+    },
+    "DLUR": {
+      "name": "config",
+      "args": []
+    },
+    "UDR": {
+      "name": "open link in new tab",
+      "args": []
+    }
+  },
+  "linkdrag_actions": {
+    "U": {
+      "name": "copy url",
+      "args": []
+    },
+    "R": {
+      "name": "open in new tab",
+      "args": []
+    },
+    "L": {
+      "name": "open in new tab",
+      "args": []
+    },
+    "D": {
+      "name": "copy text",
+      "args": []
+    }
+  },
+  "textdrag_actions": {
+    "R": {
+      "name": "search with #1 in new tab",
+      "args": [
+        "http://www.google.com/search?q=%s",
+        "Google"
+      ]
+    },
+    "L": {
+      "name": "search with #1 in new tab",
+      "args": [
+        "http://www.google.com/search?q=%s",
+        "Google"
+      ]
+    },
+    "D": {
+      "name": "copy text",
+      "args": []
+    }
+  },
+  "mouse_track": true,
+  "visualized_arrow": true,
+  "superdrag": true,
+  "useMousewheel": true,
+  "useTabList": true,
+  "useSmoothScroll": false,
+  "ScrollSpeedValue": 0.2,
+  "useScrollAcceleration": false,
+  "AccelerationValue": 5,
+  "suppress_contextmenu": true,
+  "minimumUnit": 10
+}
